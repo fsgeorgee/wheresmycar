@@ -1,6 +1,6 @@
 # Dude where is my car?
 
-Small little app to allow me to remember in which floor I parked my car :)
+Small little app to allow me to remember in which floor I parked my car :sweat_smile:
 
 Using Flask to create a simple Restfull app. The app will store the location in a text file, so it's very simple, not multi-user.
 
