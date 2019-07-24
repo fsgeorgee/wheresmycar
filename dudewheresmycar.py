@@ -1,5 +1,5 @@
-# curl http://parking.mob6.com.br/park -d "floor=3&location=The One&spot=None" -X POST -v
-# curl http://parking.mob6.com.br/parked
+# curl http://parking.dudewheresmycar.com.br/park -d "floor=3&location=The One&spot=None" -X POST -v
+# curl http://parking.dudewheresmycar.com.br/parked
 # http://flask-restful.readthedocs.io/en/latest/quickstart.html
 
 import json
@@ -9,7 +9,7 @@ from flask_restful import Resource, Api, reqparse
 
 class Persistance():
     def __init__(self):
-        self.filename = '/var/www/mob6/dudewheresmycar.json'
+        self.filename = '/var/www/dudewheresmycar/dudewheresmycar.json'
 
     def save(self, park):
         with open(self.filename, 'w') as perFile:
